@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KHAN-MD~TyxURAoC#OEmLu7YhJtmjjDTX9W26thklyIkk1QvU2zubVKwAS9k",
+SESSION_ID: process.env.SESSION_ID || "KHAN-MD~fvAxXCqJ#7YJLClvp3WCyKdNrPIu6q7oapRD1emGPBJgZ-WHToLA",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -17,7 +17,7 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "Mahar.MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "KHAN-MD",
+STICKER_NAME: process.env.STICKER_NAME || "Mahar.Md",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -41,7 +41,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
